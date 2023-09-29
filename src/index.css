@@ -42,3 +42,13 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.text-icon {
+  max-width: 100px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  cursor: pointer;
+}

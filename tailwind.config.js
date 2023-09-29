@@ -22,6 +22,10 @@ export default {
                     ...defaultTheme.fontFamily.sans,
                 ],
             },
+            borderRadius: {
+                "d-info": "30px",
+                "m-info": "50px",
+            },
         },
     },
     plugins: [],

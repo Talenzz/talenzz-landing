@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ToggleButton } from "../Button";
+import { DefaultButton } from "../DefaultButton";
 import { TextIconSection } from "../text-icon-section";
 
 import laptop from "../../assets/icons/laptop.svg";
@@ -11,13 +11,15 @@ export function IconToggleSection() {
 
     return (
         <div>
-            <ToggleButton
-                text="Button 1"
+            <DefaultButton
+                text="Artists"
+                uppercase
                 bgColor={activeSection === 0 ? "bg-salmon" : "bg-gray-300"}
                 onClick={() => setActiveSection(0)}
             />
-            <ToggleButton
-                text="Button 2"
+            <DefaultButton
+                text="Fans"
+                uppercase
                 bgColor={activeSection === 1 ? "bg-sky" : "bg-gray-300"}
                 onClick={() => setActiveSection(1)}
             />
@@ -26,8 +28,8 @@ export function IconToggleSection() {
                 <TextIconSection
                     text={
                         activeSection === 0
-                            ? "Get Funding for music through campaigns"
-                            : "SignUpp/Invest in Campaigns"
+                            ? "Finanzierung eines Musikprojekts durch Fans"
+                            : "Anmelden & Unterstützen eines Projekts"
                     }
                     icon={crowdfunding}
                     bgColor={activeSection === 0 ? "bg-salmon" : "bg-sky"}
@@ -35,8 +37,8 @@ export function IconToggleSection() {
                 <TextIconSection
                     text={
                         activeSection === 0
-                            ? "Produce and release it without giving rights away"
-                            : "Get royalities of the song you supported"
+                            ? "Mit der Fundingsumme die Single, oder das Album produzieren und über Talenzz digital veröffentlichen"
+                            : "Crowdfunding+: Durch Deine Unterstützung wirst Du an den Streamingeinnahmen der Produktion beteiligt"
                     }
                     icon={laptop}
                     bgColor={activeSection === 0 ? "bg-salmon" : "bg-sky"}
@@ -44,8 +46,8 @@ export function IconToggleSection() {
                 <TextIconSection
                     text={
                         activeSection === 0
-                            ? "Connect with fans throughh the power of web3. Get paid"
-                            : "Get special rewards, connect with your artists"
+                            ? "Unabhängig bleiben, UnterstützerInnen für ihren Support belohnen und Fanbase erweitern"
+                            : "Spezielle Fanrewards erhalten und MusikerInnen/ Bands helfen von ihrer Kunst zu leben"
                     }
                     icon={fans}
                     bgColor={activeSection === 0 ? "bg-salmon" : "bg-sky"}
