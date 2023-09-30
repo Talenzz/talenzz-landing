@@ -1,0 +1,49 @@
+{
+    "hero": {
+        "headline": "ist das erste Community Label.",
+        "subline": "Talenzz demokratisiert die Musiklandschaft. Werde vom Fan zum Schlüsselpartner - 1000 echte Fans machen den Unterschied. Entdecke neue Musik, empfehle Deine Topsongs der Community und unterstütze Deine Lieblingskünstlerinnen.",
+        "button": {
+            "text": "Nichts mehr verpassen!",
+            "link": "#newsletter-section"
+        },
+        "section": {
+            "text": "Wie funktioniert es genau?",
+            "link": "#info-section"
+        }
+    },
+    "stats": {
+        "description": "Talenzz revolutioniert die Beziehung zwischen Musikschaffenden und Fans.",
+        "statsText": [
+            {
+                "title": "1%",
+                "text": "Chance von einem Label designed zu werden"
+            },
+            {
+                "title": "100€",
+                "text": "pro Person und 100 wahre Fans und ein Album ist finanziert"
+            },
+            {
+                "title": "100%",
+                "text": "alle Rechte bleiben beim Artist und seinen Fans"
+            }
+        ]
+    },
+    "info": {
+        "title": "Wie es funktioniert",
+        "buttons": ["Für Artists", "Für Fans"],
+        "steps": [
+            {
+                "artist": "Finanzierung eines Musikprojekts durch Fans",
+                "fan": "Anmelden & Unterstützen eines Projekts"
+            },
+            {
+                "artist": "Mit der Fundingsumme die Single, oder das Album produzieren und über Talenzz digital veröffentlichen",
+                "fan": "Durch Deine Unterstützung wirst Du an den Streamingeinnahmen der Produktion beteiligt"
+            },
+            {
+                "artist": "Unabhängig bleiben, UnterstützerInnen für ihren Support belohnen und Fanbase erweitern",
+                "fan": "Spezielle Fanrewards erhalten und MusikerInnen/ Bands helfen von ihrer Kunst zu leben"
+            }
+        ]
+    }
+}
