@@ -7,30 +7,31 @@
     font-family: 'Epilogue';
     font-weight: 400;
     font-style: normal;
-    src: url(/fonts/epilogue-regular.woff2) format("woff2");
+    src: url(/fonts/Epilogue-Regular.woff2) format("woff2");
   }
 
   @font-face {
     font-family: 'Epilogue';
     font-weight: 700;
     font-style: normal;
-    src: url(/fonts/epilogue-700.woff2) format("woff2");
+    src: url(/fonts/Epilogue-Bold.woff2) format("woff2");
   }
 
   @font-face {
     font-family: 'Epilogue';
     font-weight: 900;
     font-style: normal;
-    src: url(/fonts/epilogue-900.woff2) format("woff2");
+    src: url(/fonts/Epilogue-Black.woff2) format("woff2");
   }
 }
 
 :root {
-  --white: #f2f2f2;
+  --white: #ffffff;
   --black: #161511;
   --salmon: #f4b5a8;
   --sky: #affcf4;
   --icterine: #fcf8b7;
+  --bodyGray: #ADADAD;
 
   background-color: var(--white);
 
