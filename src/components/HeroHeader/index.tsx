@@ -4,29 +4,23 @@ import logo from "../../assets/logo.svg";
 
 export function HeroHeader() {
     return (
-        <div className="relative">
+        <div className="relative" id="hero">
             <img
                 src={header_image}
                 alt="Background"
                 className="absolute w-full h-full object-cover brightness-50 z-0"
             />
 
-            <Header
-                links={[
-                    { text: "AGB", url: "#" },
-                    { text: "Impressum", url: "#" },
-                    { text: "FAQs", url: "#" },
-                ]}
-            />
+            <Header />
 
             {/* Content */}
             <div className="relative flex flex-col items-center justify-center h-screen z-0">
-                <h1 className="text-4xl md:text-6xl font-bold text-white flex flex-col items-center justify-center">
+                <h1 className="text-4xl md:text-6xl font-bold text-white flex flex-col items-center justify-center select-none">
                     <div className="flex items-center text-center">
                         <img
                             src={logo}
                             alt="logo"
-                            className="md:h-20 h-12 w-auto mx-2 align-middle mt-2 md:mt-3"
+                            className="md:h-20 h-12 w-auto mx-4 align-middle mt-2 md:mt-3"
                         />
                         <span>ist das erste</span>
                     </div>
@@ -34,6 +28,8 @@ export function HeroHeader() {
                         <span>Community Label.</span>
                     </div>
                 </h1>
+                {/* ADD SOME SPACING */}
+                <div className="h-16"></div>
                 <p className="text-xl md:text-2xl text-white mt-4 mb-8 text-center w-7/12">
                     Talenzz demokratisiert die Musiklandschaft. Werde vom Fan
                     zum Schlüsselpartner - 1000 echte Fans machen den
