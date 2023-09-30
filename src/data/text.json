@@ -30,7 +30,10 @@
     },
     "info": {
         "title": "Wie es funktioniert",
-        "buttons": ["Für Artists", "Für Fans"],
+        "buttons": [
+            "Für Artists",
+            "Für Fans"
+        ],
         "steps": [
             {
                 "artist": "Finanzierung eines Musikprojekts durch Fans",
@@ -45,5 +48,6 @@
                 "fan": "Spezielle Fanrewards erhalten und MusikerInnen/ Bands helfen von ihrer Kunst zu leben"
             }
         ]
-    }
+    },
+    "companyInfo": "Talenzz gibt einigen ausgewählten KünstlerInnen und Bands die Möglichkeit direkt von unserem Netzwerk zu profitieren und von uns zusätzlich zum Support der Fans noch Budget zu bekommen. Wenn ihr dafür ausgewählt werdet, bekommt ihr auf der zukünftigen Plattform den Batch “Premium Artist” neben eurem Namen. Dafür nimmt sich Talenzz heraus (sozusagen als zusätzlicher Fan) die Rechteanteile für den auch den Fans angebotenen Preis zu erwerben. Die Obergrenze dieser Anteile liegt bei “20%” der Gesamtheit der Rechte."
 }

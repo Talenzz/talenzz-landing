@@ -4,6 +4,7 @@ import { PageContainer } from "./components/PageContainer";
 import { Footer } from "./components/Footer";
 import { StatsSection } from "./components/StatsSection";
 import { GetPageText } from "./utils";
+import { InnerPageContainer } from "./components/InnerPageContainer";
 
 function App() {
     const text = GetPageText();
@@ -26,6 +27,12 @@ function App() {
                     buttons={text.info.buttons}
                     steps={text.info.steps}
                 />
+
+                <div className="h-20" />
+
+                <InnerPageContainer>
+                    <p className="text-xl text-left">{text.companyInfo}</p>
+                </InnerPageContainer>
 
                 <Footer />
             </PageContainer>

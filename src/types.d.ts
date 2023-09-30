@@ -2,6 +2,7 @@ export interface TextJson {
     hero: HeroText;
     stats: StatsSection;
     info: InfoSection;
+    companyInfo: string;
 }
 
 interface HeroText {
@@ -28,5 +29,5 @@ interface StatsSection {
 interface InfoSection {
     title: string;
     buttons: string[];
-    steps: {artist: string, fan: string}[];
+    steps: { artist: string, fan: string }[];
 }
