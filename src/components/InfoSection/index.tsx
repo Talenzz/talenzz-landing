@@ -6,17 +6,17 @@ import laptop from "../../assets/icons/laptop.svg";
 import crowdfunding from "../../assets/icons/crowdfunding.svg";
 import fans from "../../assets/icons/fans.svg";
 
-interface IconToggleSectionProps {
+interface InfoSectionProps {
     title: string;
     buttons: string[];
     steps: { artist: string; fan: string }[];
 }
 
-export function IconToggleSection({
+export function InfoSection({
     title,
     buttons,
     steps,
-}: IconToggleSectionProps) {
+}: InfoSectionProps) {
     const [activeSection, setActiveSection] = useState(0);
 
     const icons = [crowdfunding, laptop, fans];

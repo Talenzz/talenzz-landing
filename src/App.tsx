@@ -1,4 +1,4 @@
-import { IconToggleSection } from "./components/icon-toggle-section";
+import { InfoSection } from "./components/InfoSection";
 import { HeroHeader } from "./components/HeroHeader";
 import { PageContainer } from "./components/PageContainer";
 import { Footer } from "./components/Footer";
@@ -21,7 +21,7 @@ function App() {
 
                 <div className="h-20" />
 
-                <IconToggleSection
+                <InfoSection
                     title={text.info.title}
                     buttons={text.info.buttons}
                     steps={text.info.steps}
