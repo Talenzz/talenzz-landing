@@ -11,6 +11,7 @@ export default {
                 current: "currentColor",
                 white: "var(--white)",
                 black: "var(--black)",
+                body2: "var(--bodyGray)",
                 salmon: "var(--salmon)",
                 sky: "var(--sky)",
                 icterine: "var(--icterine)",
@@ -23,8 +24,8 @@ export default {
                 ],
             },
             borderRadius: {
-                "d-info": "30px",
-                "m-info": "50px",
+                "d-info": "4rem",
+                "m-info": "3rem",
             },
         },
     },

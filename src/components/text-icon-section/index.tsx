@@ -4,15 +4,13 @@ interface TextIconSectionProps {
     bgColor: string;
 }
 
-export function TextIconSection({
-    text,
-    icon,
-    bgColor,
-}: TextIconSectionProps) {
+export function TextIconSection({ text, icon, bgColor }: TextIconSectionProps) {
     return (
-        <div className={`flex flex-col items-center ${bgColor} mr-2 ml-2 p-4 rounded-d-info`}>
-            <img src={icon} className="text-icon" alt="React logo" />
-            <p className="text-black text-center">{text}</p>
+        <div className="aspect-square relative">
+            <div className={`grid grid-rows-2 items-center justify-center justify-items-center ${bgColor} p-4 rounded-d-info absolute inset-0 w-full h-full`}>
+                <img src={icon} alt="React logo" />
+                <p className="text-black text-center mt-2 text-2xl md:text-3xl font-bold self-start">{text}</p>
+            </div>
         </div>
     );
 }
