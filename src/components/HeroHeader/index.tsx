@@ -1,12 +1,15 @@
 import { Header } from "../Header";
-import header_image from "../../assets/images/header_image.jpg";
+import { Image } from "../Image";
 import logo from "../../assets/logo.svg";
+import header_image from "../../assets/images/header_image.webp";
+import header_image_fallback from "../../assets/images/header_image.jpg";
 
 export function HeroHeader() {
     return (
         <div className="relative" id="hero">
-            <img
+            <Image
                 src={header_image}
+                fallback={header_image_fallback}
                 alt="Background"
                 className="absolute w-full h-full object-cover brightness-50 z-0"
             />
