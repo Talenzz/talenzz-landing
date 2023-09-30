@@ -5,6 +5,7 @@ import { Footer } from "./components/Footer";
 import { StatsSection } from "./components/StatsSection";
 import { GetPageText } from "./utils";
 import { InnerPageContainer } from "./components/InnerPageContainer";
+import { ApplySection } from "./components/ApplySection";
 
 function App() {
     const text = GetPageText();
@@ -33,6 +34,10 @@ function App() {
                 <InnerPageContainer>
                     <p className="text-xl text-left">{text.companyInfo}</p>
                 </InnerPageContainer>
+
+                <div className="h-20" />
+
+                <ApplySection content={text.apply} />
 
                 <Footer />
             </PageContainer>

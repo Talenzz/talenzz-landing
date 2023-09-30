@@ -3,19 +3,19 @@ export interface TextJson {
     stats: StatsSection;
     info: InfoSection;
     companyInfo: string;
+    apply: ApplySection;
+}
+
+interface TextLinkTuple {
+    text: string;
+    link: string;
 }
 
 interface HeroText {
     headline: string;
     subline: string;
-    button: {
-        text: string;
-        link: string;
-    };
-    section: {
-        text: string;
-        link: string;
-    };
+    button: TextLinkTuple;
+    section: TextLinkTuple;
 }
 
 interface StatsSection {
@@ -30,4 +30,11 @@ interface InfoSection {
     title: string;
     buttons: string[];
     steps: { artist: string, fan: string }[];
+}
+
+export interface ApplySection {
+    title: string;
+    description: string;
+    text: string;
+    button: TextLinkTuple;
 }
