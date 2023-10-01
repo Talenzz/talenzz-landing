@@ -10,7 +10,7 @@ export function Footer() {
             <div className="bg-sky">
                 <PageContainer>
                     <InnerPageContainer>
-                        <div className="flex flex-row pt-12 pb-12">
+                        <div className="flex flex-wrap flex-col md:flex-row gap-12 md:gap-0 pt-12 pb-12">
                             <img
                                 src={brainstorm_logo}
                                 alt="Brainstorm Logo"
