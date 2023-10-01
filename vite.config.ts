@@ -5,6 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
+  base: '/talenzz-landing/',
+
   preview: {
     host: true,
     port: 5173,
