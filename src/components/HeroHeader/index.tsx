@@ -4,6 +4,7 @@ import logo from "../../assets/logo.svg";
 import header_image from "../../assets/images/header_image.webp";
 import header_image_fallback from "../../assets/images/header_image.jpg";
 import { DefaultButton } from "../DefaultButton";
+import { ScrollLink } from "../ScrollLink";
 
 export function HeroHeader() {
     return (
@@ -40,10 +41,14 @@ export function HeroHeader() {
                     Unterschied. Entdecke neue Musik, empfehle Deine Topsongs
                     der Community und unterstütze Deine Lieblingskünstlerinnen.
                 </p>
-                <DefaultButton text={"Jetzt loslegen"} bgColor={"bg-white"} className="mb-8"  />
-                <a href="#some-anchor" className="text-white underline">
-                    Wie funktioniert es?
-                </a>
+                <DefaultButton text={"Jetzt loslegen"} bgColor={"bg-white"} className="mb-8" onClick={() => {
+                    // scroll to #apply-section when button is clicked
+                    const applySection = document.getElementById("apply-section");
+                    if (applySection) {
+                        applySection.scrollIntoView({ behavior: "smooth" });
+                    }
+                }}  />
+                <ScrollLink to="info-section" text="Wie funktioniert es?" />
             </div>
         </div>
     );

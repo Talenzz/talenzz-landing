@@ -10,7 +10,7 @@ interface ApplySectionProps {
 
 export function ApplySection({ content }: ApplySectionProps) {
     return (
-        <div className="bg-icterine rounded-m-info md:rounded-d-info flex">
+        <div id="apply-section" className="bg-icterine rounded-m-info md:rounded-d-info flex">
             <div className="flex-1 flex flex-col p-12 md:p-24">
                 <h2 className="text-center md:text-left text-4xl md:text-5xl mb-4 md:mb-0 font-bold">{content.title}</h2>
                 <p className="text-left text-xl py-8">{content.description}</p>
