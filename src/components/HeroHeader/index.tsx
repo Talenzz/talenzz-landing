@@ -3,6 +3,7 @@ import { Image } from "../Image";
 import logo from "../../assets/logo.svg";
 import header_image from "../../assets/images/header_image.webp";
 import header_image_fallback from "../../assets/images/header_image.jpg";
+import { DefaultButton } from "../DefaultButton";
 
 export function HeroHeader() {
     return (
@@ -39,8 +40,9 @@ export function HeroHeader() {
                     Unterschied. Entdecke neue Musik, empfehle Deine Topsongs
                     der Community und unterstütze Deine Lieblingskünstlerinnen.
                 </p>
-                <a href="#some-anchor" className="text-blue-500 underline">
-                    Go to Section
+                <DefaultButton text={"Jetzt loslegen"} bgColor={"bg-white"} className="mb-8"  />
+                <a href="#some-anchor" className="text-white underline">
+                    Wie funktioniert es?
                 </a>
             </div>
         </div>
