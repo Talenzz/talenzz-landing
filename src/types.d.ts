@@ -4,6 +4,7 @@ export interface TextJson {
     info: InfoSection;
     companyInfo: string;
     apply: ApplySection;
+    form: FormSection;
 }
 
 interface TextLinkTuple {
@@ -37,4 +38,8 @@ export interface ApplySection {
     description: string;
     text: string;
     button: TextLinkTuple;
+}
+
+interface FormSection {
+    info: string;
 }
