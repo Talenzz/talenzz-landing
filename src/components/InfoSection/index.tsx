@@ -53,7 +53,7 @@ export function InfoSection({
 
             <div className="h-10" />
 
-            <div className="grid grid-cols-1 md:grid-cols-3 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-12 md:gap-0">
                 {iconSections}
             </div>
         </div>

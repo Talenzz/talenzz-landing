@@ -24,7 +24,7 @@ export default {
                 ],
             },
             borderRadius: {
-                "d-info": "4rem",
+                "d-info": "3rem",
                 "m-info": "3rem",
             },
         },
