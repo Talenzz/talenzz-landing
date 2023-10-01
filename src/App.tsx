@@ -39,8 +39,8 @@ function App() {
 
                 <ApplySection content={text.apply} />
 
-                <Footer />
             </PageContainer>
+            <Footer />
         </>
     );
 }
