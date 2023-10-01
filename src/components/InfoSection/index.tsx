@@ -47,13 +47,13 @@ export function InfoSection({
     return (
         <div id="info-section">
             <div className="flex flex-col md:flex-row md:justify-between md:items-center content-center">
-                <p className="text-center text-6xl md:text-8xl mb-4 md:mb-0 font-bold">{title}</p>
+                <p className="text-center text-6xl md:text-6xl mb-4 md:mb-0 font-bold">{title}</p>
                 <div>{allButtons}</div>
             </div>
 
             <div className="h-10" />
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 items-center">
                 {iconSections}
             </div>
         </div>
