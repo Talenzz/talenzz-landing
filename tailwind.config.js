@@ -22,7 +22,7 @@ export default {
                 ],
             },
             borderRadius: {
-                "d-info": "3rem",
+                "d-info": "4rem",
                 "m-info": "3rem",
             },
             brightness: {
@@ -38,6 +38,10 @@ export default {
                 "5/7": "71.4285714%",
                 "6/7": "85.7142857%",
                 "54p": "54%",
+                "24r": "24rem",
+            },
+            maxWidth: {
+                "24r": "24rem",
             }
         },
     },
