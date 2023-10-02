@@ -52,4 +52,25 @@ export interface Footer {
     partners: {
         button: TextLinkTuple;
     };
+    info: {
+        company: {
+            name: string;
+            slogan: string;
+        };
+        address: {
+            street: string;
+            city: string;
+        };
+        contact: {
+            title: string;
+            email: string;
+        };
+        imprint: TextLinkTuple;
+        terms: TextLinkTuple;
+    },
+    social: {
+        facebook: string;
+        instagram: string;
+        twitter: string;
+    };
 }

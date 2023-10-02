@@ -70,6 +70,33 @@
                 "text": "Auch Partner werden",
                 "link": "#contact"
             }
+        },
+        "info": {
+            "company": {
+                "name": "Talenzz GmbH",
+                "slogan": "Das erste Community Label"
+            },
+            "address": {
+                "street": "Weidachstraße 13",
+                "city": "87541 Bad Hindelang"
+            },
+            "contact": {
+                "title": "Kontakt:",
+                "email": "info@talenzz.io"
+            },
+            "imprint": {
+                "text": "Impressum",
+                "link": "https://www.talenzz.io/impressum"
+            },
+            "terms": {
+                "text": "AGB",
+                "link": "https://www.talenzz.io/agb"
+            }
+        },
+        "social": {
+            "instagram": "https://www.instagram.com/talenzzmusic/",
+            "facebook": "https://www.facebook.com/talenzzmusic",
+            "twitter": "https://twitter.com/talenzzmusic"
         }
     }
 }

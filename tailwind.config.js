@@ -44,6 +44,9 @@ export default {
             },
             maxWidth: {
                 "24r": "24rem",
+            },
+            fontSize: {
+                "1halfxl": "1.35rem",
             }
         },
     },
