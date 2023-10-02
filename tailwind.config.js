@@ -25,6 +25,11 @@ export default {
                 "d-info": "3rem",
                 "m-info": "3rem",
             },
+            brightness: {
+                25: ".25",
+                40: ".4",
+                35: ".35",
+            }
         },
     },
     plugins: [],

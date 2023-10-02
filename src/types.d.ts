@@ -16,7 +16,6 @@ interface HeroText {
     headline: string;
     subline: string;
     button: TextLinkTuple;
-    section: TextLinkTuple;
 }
 
 interface StatsSection {
