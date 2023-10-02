@@ -1,7 +1,7 @@
 {
     "hero": {
         "headline": "ist das erste Community Label.",
-        "subline": "Talenzz demokratisiert die Musiklandschaft. Werde vom Fan zum Schlüsselpartner - 1000 echte Fans machen den Unterschied. Entdecke neue Musik, empfehle Deine Topsongs der Community und unterstütze Deine Lieblingskünstlerinnen.",
+        "subline": "Talenzz demokratisiert die Musiklandschaft. Werdet von Fans zu Schlüsselpartnern - 1000 echte Fans machen den Unterschied. Entdecke neue Musik, empfehle Deine Topsongs der Community und unterstütze Deine Lieblingskünstlerinnen.",
         "button": {
             "text": "Nichts mehr verpassen!",
             "link": "#newsletter-section"
@@ -12,24 +12,24 @@
         }
     },
     "stats": {
-        "description": "Talenzz revolutioniert die Beziehung zwischen Musikschaffenden und Fans.",
+        "description": "Musikschaffende und Fans hatten schon immer alles was nötig ist - gefehlt hat nur die richtige Plattform. Bis jetzt.",
         "statsText": [
             {
                 "title": "1%",
-                "text": "Chance von einem Label designed zu werden"
+                "text": "Chance von einem Label gesigned zu werden"
             },
             {
-                "title": "100€",
-                "text": "pro Person und 100 wahre Fans und ein Album ist finanziert"
+                "title": "10€",
+                "text": "pro Person und 1000 wahre Fans und ein Album ist finanziert"
             },
             {
                 "title": "100%",
-                "text": "alle Rechte bleiben beim Artist und seinen Fans"
+                "text": "Kontrolle über die Rechteverwertung"
             }
         ]
     },
     "info": {
-        "title": "Wie es funktioniert",
+        "title": "Wie funktioniert's?",
         "buttons": [
             "Für Artists",
             "Für Fans"
@@ -49,7 +49,7 @@
             }
         ]
     },
-    "companyInfo": "Auf Basis dieses Leitspruchs, bildet Talenzz die Brücke zwischen bisherigen Mechanismen und aktuellster Innovation. So entsteht ein sicherer Hafen für alle KünstlerInnen und Fans, welche hier Projekte realisieren, neue Musik entdecken und empfehlen können. Dadurch gestalten sie die Musikindustrie neu.",
+    "companyInfo": "Trotzdem können viele Künstlerinnen und Künstler nicht von ihrer Kunst leben. Durch unfaire Verträge werden die Einnahmen durch Streams noch kleiner, als sie eh schon sind. Auf Talenzz haben alle Musikschaffenden die Möglichkeit sich über ihre Fans finanzieren zu lassen und behalten gleichzeitig die volle Kontrolle, wie viele Rechte sie abgeben möchten. Gleichzeitig bekommen Fans die Möglichkeit am potenziellen Erfolg teilzuhaben und spannende Rewards zu erhalten.",
     "apply": {
         "title": "Werdet Talenzz-Botschafter!",
         "description": "Talenzz gibt einigen ausgewählten KünstlerInnen und Bands die Möglichkeit direkt von unserem Netzwerk zu profitieren und von uns zusätzlich zum Support der Fans noch Budget zu bekommen. Wenn ihr dafür ausgewählt werdet, bekommt ihr auf der zukünftigen Plattform den Batch 'Premium Artist' neben eurem Namen. Dafür nimmt sich Talenzz heraus (sozusagen als zusätzlicher Fan) die Rechteanteile für den auch den Fans angebotenen Preis zu erwerben. Die Obergrenze dieser Anteile liegt bei \"20%\" der Gesamtheit der Rechte.",
