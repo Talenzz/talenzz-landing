@@ -18,7 +18,9 @@ export default {
             },
             fontFamily: {
                 sans: [
-                    "Epilogue"
+                    "Epilogue",
+                    "sans-serif",
+                    ...defaultTheme.fontFamily.sans,
                 ],
             },
             borderRadius: {
