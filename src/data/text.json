@@ -45,11 +45,17 @@
             }
         ]
     },
-    "companyInfo": "Trotzdem können viele Künstlerinnen und Künstler nicht von ihrer Kunst leben. Durch unfaire Verträge werden die Einnahmen durch Streams noch kleiner, als sie eh schon sind. Auf Talenzz haben alle Musikschaffenden die Möglichkeit sich über ihre Fans finanzieren zu lassen und behalten gleichzeitig die volle Kontrolle, wie viele Rechte sie abgeben möchten. Gleichzeitig bekommen Fans die Möglichkeit am potenziellen Erfolg teilzuhaben und spannende Rewards zu erhalten.",
+    "transition": {
+        "title": "Musik ist der Schmierstoff des Lebens",
+        "description": "Trotzdem können viele Künstlerinnen und Künstler nicht von ihrer Kunst leben. Durch unfaire Verträge werden die Einnahmen durch Streams noch kleiner, als sie eh schon sind. Auf Talenzz haben alle Musikschaffenden die Möglichkeit sich über ihre Fans finanzieren zu lassen und behalten gleichzeitig die volle Kontrolle, wie viele Rechte sie abgeben möchten. Gleichzeitig bekommen Fans die Möglichkeit am potenziellen Erfolg teilzuhaben und spannende Rewards zu erhalten."
+    },
     "apply": {
-        "title": "Werdet Talenzz-Botschafter!",
-        "description": "Talenzz gibt einigen ausgewählten KünstlerInnen und Bands die Möglichkeit direkt von unserem Netzwerk zu profitieren und von uns zusätzlich zum Support der Fans noch Budget zu bekommen. Wenn ihr dafür ausgewählt werdet, bekommt ihr auf der zukünftigen Plattform den Batch 'Premium Artist' neben eurem Namen. Dafür nimmt sich Talenzz heraus (sozusagen als zusätzlicher Fan) die Rechteanteile für den auch den Fans angebotenen Preis zu erwerben. Die Obergrenze dieser Anteile liegt bei \"20%\" der Gesamtheit der Rechte.",
-        "text": "Außerdem werdet ihr auch im Rahmen unserer \"Success Stories\" auf unserer Plattform begleitet und gefeatured, um andere von euren Erfahrungen profitieren zu lassen.",
+        "title": "Lust auf mehr?",
+        "description": [
+            "Talenzz gibt einigen ausgewählten KünstlerInnen und Bands die Möglichkeit direkt von unserem Netzwerk zu profitieren und von uns zusätzlich zum Support der Fans noch Budget zu bekommen. Wenn ihr dafür ausgewählt werdet, bekommt ihr auf der zukünftigen Plattform den Batch \"Talenzz Artist\" neben eurem Namen.",
+            "Dafür nimmt sich Talenzz heraus (sozusagen als zusätzlicher Fan) einen kleinen Rechteanteile für den, auch den Fans angebotenen Preis, zu erwerben.",
+            "Außerdem werdet ihr auch im Rahmen unserer \"Erfolgsstories\" auf unserer Plattform begleitet und gefeatured, um andere von euren Erfahrungen profitieren zu lassen."
+        ],
         "button": {
             "text": "Hier bewerben!",
             "link": "#apply-section"

@@ -2,7 +2,7 @@ export interface TextJson {
     hero: HeroText;
     stats: StatsSection;
     info: InfoSection;
-    companyInfo: string;
+    transition: Transition;
     apply: ApplySection;
     form: FormSection;
 }
@@ -32,10 +32,14 @@ interface InfoSection {
     steps: { artist: string, fan: string }[];
 }
 
-export interface ApplySection {
+interface Transition {
     title: string;
     description: string;
-    text: string;
+}
+
+export interface ApplySection {
+    title: string;
+    description: string[];
     button: TextLinkTuple;
 }
 
