@@ -5,7 +5,7 @@ import header_image from "../../assets/images/header_image.webp";
 import header_image_fallback from "../../assets/images/header_image.jpg";
 import { DefaultButton } from "../DefaultButton";
 import { HeroText } from "../../types";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { BsArrowRight } from "react-icons/bs";
 
 interface HeroHeaderProps {
     text: HeroText;
@@ -47,7 +47,7 @@ export function HeroHeader({ text }: HeroHeaderProps) {
                     text={text.button.text}
                     bgColor={"bg-white"}
                     className="mb-8 lg:text-xl"
-                    icon={faArrowRight}
+                    Icon={<BsArrowRight />}
                     onClick={() => {
                         // scroll to #apply-section when button is clicked
                         const applySection =

@@ -1,13 +1,10 @@
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 interface ButtonProps {
     text: string;
     bgColor: string;
     className?: string;
     uppercase?: boolean;
     bold?: boolean;
-    icon?: IconDefinition;
+    Icon?: React.ReactNode;
     onClick?: () => void;
 }
 
@@ -17,7 +14,7 @@ export function DefaultButton({
     className,
     uppercase = false,
     bold = true,
-    icon,
+    Icon,
     onClick,
 }: ButtonProps) {
     const b = bold ? "font-bold" : "";
@@ -30,7 +27,7 @@ export function DefaultButton({
         >
             <span className="flex items-center justify-between">
                 {text}
-                {icon && <FontAwesomeIcon icon={icon} className="ml-4" />}
+                {Icon && <span className="ml-4">{Icon}</span>}
             </span>
         </button>
     );
