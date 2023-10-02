@@ -4,7 +4,6 @@ import { PageContainer } from "./components/PageContainer";
 import { Footer } from "./components/Footer";
 import { StatsSection } from "./components/StatsSection";
 import { GetPageText } from "./utils";
-import { InnerPageContainer } from "./components/InnerPageContainer";
 import { ApplySection } from "./components/ApplySection";
 
 function App() {
@@ -45,15 +44,13 @@ function App() {
 
                 <div className="h-20" />
 
-                <InnerPageContainer>
-                    <p className="text-xl text-left">
-                        Tretet unserem Newsletter bei, um mit uns die Zukunft
-                        der Musikbranche mitzugestalten! Bleibt über alle
-                        Entwicklungen informiert und verpasst keine News. Die
-                        ersten 100 Anmeldungen kriegen einen Gutschein zum
-                        Launch der Plattform im Januar 2024.
-                    </p>
-                </InnerPageContainer>
+                <p className="text-xl text-left font-bold">
+                    Tretet unserem Newsletter bei, um mit uns die Zukunft der
+                    Musikbranche mitzugestalten! Bleibt über alle Entwicklungen
+                    informiert und verpasst keine News. Die ersten 100
+                    Anmeldungen kriegen einen Gutschein zum Launch der Plattform
+                    im Januar 2024.
+                </p>
 
                 <iframe
                     width="100%"

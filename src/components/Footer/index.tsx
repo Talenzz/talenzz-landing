@@ -1,7 +1,6 @@
 import brainstorm_logo from "../../assets/images/brainstorm_logo.svg";
 import emergenza_logo from "../../assets/images/emergenza_logo.svg";
 import { DefaultButton } from "../DefaultButton";
-import { InnerPageContainer } from "../InnerPageContainer";
 import { PageContainer } from "../PageContainer";
 
 export function Footer() {
@@ -9,7 +8,6 @@ export function Footer() {
         <>
             <div className="bg-sky">
                 <PageContainer>
-                    <InnerPageContainer>
                         <div className="flex flex-wrap flex-col md:flex-row gap-12 md:gap-0 pt-12 pb-12">
                             <img
                                 src={brainstorm_logo}
@@ -28,7 +26,6 @@ export function Footer() {
                                 />
                             </div>
                         </div>
-                    </InnerPageContainer>
                 </PageContainer>
             </div>
             <div className="bg-black grid grid-cols-2 md:grid-cols-4"></div>
