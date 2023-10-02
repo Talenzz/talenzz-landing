@@ -154,7 +154,7 @@ export function Footer({ text }: FooterProps) {
                                 <div className="flex space-x-4">{icons}</div>
                             </div>
                             <div>{texts.company}</div>
-                            <div className="flex justify-between my-4">
+                            <div className="flex justify-between mb-4">
                                 <div className="text-left">{texts.address}</div>
                                 <div className="text-left">{texts.contact}</div>
                             </div>

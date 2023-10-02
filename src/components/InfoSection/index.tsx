@@ -57,7 +57,7 @@ export function InfoSection({ title, buttons, steps }: InfoSectionProps) {
                 <p className="text-center text-5xl mb-4 lg:mb-0 font-bold">
                     {title}
                 </p>
-                <div>{allButtons}</div>
+                <div className="flex justify-center lg:block">{allButtons}</div>
             </div>
 
             <div className="h-10" />
