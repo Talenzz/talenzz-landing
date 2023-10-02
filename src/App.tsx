@@ -12,7 +12,7 @@ function App() {
 
     return (
         <>
-            <HeroHeader />
+            <HeroHeader text={text.hero} />
             <PageContainer>
                 <div className="h-20" />
 

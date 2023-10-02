@@ -12,7 +12,7 @@ interface TextLinkTuple {
     link: string;
 }
 
-interface HeroText {
+export interface HeroText {
     headline: string;
     subline: string;
     button: TextLinkTuple;
