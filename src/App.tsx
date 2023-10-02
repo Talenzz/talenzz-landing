@@ -54,11 +54,11 @@ function App() {
 
                 <iframe
                     width="100%"
-                    height="900px"
+                    height="850px"
                     src="https://a36683bd.sibforms.com/serve/MUIFAGAvr35q-uYbx2ltmVpk3LPRoTM9zgYhi2ffa08AD4-7M0HZCUY8jOTRZSZyZV9keROCtjkV3NoNY-3xyi1vz0X9T15_UQq_KNDrwdfPVRTVTJmT6nqkZxVtlXMouBb25sC33PPQ0yZtPO_2yln0IGg5aFcTIfrQoKpw2yE8HQZeFSC1LZ6jAwQj_rg2duq6MT4cOh4RlfJc"
                 />
             </PageContainer>
-            <Footer />
+            <Footer text={text.footer} />
         </>
     );
 }

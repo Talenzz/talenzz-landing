@@ -66,9 +66,8 @@
     },
     "footer": {
         "partners": {
-            "title": "Möchten Sie eine Partnerschaft mit uns eingehen?",
             "button": {
-                "text": "Kontaktiere uns!",
+                "text": "Auch Partner werden",
                 "link": "#contact"
             }
         }

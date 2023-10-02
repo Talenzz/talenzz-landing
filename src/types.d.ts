@@ -5,6 +5,7 @@ export interface TextJson {
     transition: Transition;
     apply: ApplySection;
     form: FormSection;
+    footer: Footer;
 }
 
 interface TextLinkTuple {
@@ -45,4 +46,10 @@ export interface ApplySection {
 
 interface FormSection {
     info: string;
+}
+
+export interface Footer {
+    partners: {
+        button: TextLinkTuple;
+    };
 }
