@@ -34,6 +34,7 @@ export function ApplySection({ content }: ApplySectionProps) {
                     className="self-center text-lg"
                     bgColor="bg-white"
                     Icon={<BiLinkExternal />}
+                    onClick={() => window.open(content.button.link, "_blank")}
                 />
             </div>
             <div className="hidden lg:flex justify-end items-end pt-16 pr-16">
