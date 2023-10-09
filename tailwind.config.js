@@ -41,9 +41,14 @@ export default {
                 "6/7": "85.7142857%",
                 "54p": "54%",
                 "24r": "24rem",
+                "pc": "1120px"
             },
             maxWidth: {
-                "24r": "24rem",
+                "16r": "16rem",
+                "18r": "18rem",
+                "20r": "20rem",
+                "pc": "1120px",
+                "40r": "40rem",
             },
             fontSize: {
                 "1halfxl": "1.35rem",
