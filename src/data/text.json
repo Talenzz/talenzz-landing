@@ -4,7 +4,7 @@
         "subline": "Talenzz demokratisiert die Musiklandschaft. Werdet von Fans zu Schlüsselpartnern - 1000 echte Fans machen den Unterschied. Entdecke neue Musik, empfehle Deine Topsongs der Community und unterstütze Deine Lieblingskünstlerinnen.",
         "button": {
             "text": "Mehr erfahren",
-            "link": "apply-section"
+            "link": "info-section"
         }
     },
     "stats": {
@@ -68,7 +68,7 @@
         "partners": {
             "button": {
                 "text": "Auch Partner werden",
-                "link": "#contact"
+                "link": "mailto:partner@talenzz.io"
             }
         },
         "info": {
@@ -89,7 +89,7 @@
                 "link": "https://www.talenzz.io/impressum"
             },
             "terms": {
-                "text": "AGB",
+                "text": "Datenschutzerklärung",
                 "link": "https://www.talenzz.io/agb"
             }
         },

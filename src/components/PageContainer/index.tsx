@@ -8,7 +8,7 @@ export function PageContainer({ children }: PageContainerProps) {
         //     {children}
         // </div>
         <main className="flex flex-col min-h-full items-center content-center">
-            <div className="flex flex-col items-stretch gap-12 lg:gap-16 max-w-40r lg:max-w-pc w-full px-8">
+            <div className="flex flex-col items-stretch gap-12 lg:gap-24 max-w-40r lg:max-w-pc w-full px-8">
                 {children}
             </div>
         </main>

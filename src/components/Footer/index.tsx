@@ -100,6 +100,9 @@ export function Footer({ text }: FooterProps) {
                         <DefaultButton
                             text={text.partners.button.text}
                             bgColor="self-center bg-white text-xl"
+                            onClick={() =>
+                                window.open(text.partners.button.link)
+                            }
                         />
                     </div>
                 </PageContainer>
