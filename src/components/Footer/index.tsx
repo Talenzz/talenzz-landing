@@ -86,12 +86,12 @@ export function Footer({ text }: FooterProps) {
         <>
             <div className="bg-sky">
                 <PageContainer>
-                    <div className="flex content-center items-center lg:content-normal flex-wrap flex-col lg:flex-row gap-12 lg:gap-0 justify-between pt-12 pb-12">
+                    <div className="flex content-center items-center xl:content-normal flex-wrap flex-col xl:flex-row gap-12 xl:gap-0 justify-between pt-12 pb-12">
                         <a href="https://www.bmm-ag.de/">
                             <img
                                 src={brainstorm_logo}
                                 alt="Brainstorm Logo"
-                                className="lg:pr-16"
+                                className="xl:pr-16"
                             />
                         </a>
                         <a href="https://emergenza.live/">
@@ -100,6 +100,9 @@ export function Footer({ text }: FooterProps) {
                         <DefaultButton
                             text={text.partners.button.text}
                             bgColor="self-center bg-white text-xl"
+                            onClick={() =>
+                                window.open(text.partners.button.link)
+                            }
                         />
                     </div>
                 </PageContainer>
@@ -108,7 +111,7 @@ export function Footer({ text }: FooterProps) {
             <div className="bg-black text-white">
                 <PageContainer>
                     <div className="py-10">
-                        <div className="hidden lg:grid grid-rows-2 gap-8">
+                        <div className="hidden xl:grid grid-rows-2 gap-8">
                             <div className="grid grid-cols-4 gap-4">
                                 <div className="flex justify-start items-center">
                                     {logo_comp}
@@ -135,7 +138,7 @@ export function Footer({ text }: FooterProps) {
                             </div>
                         </div>
 
-                        <div className="hidden lg:hidden md:grid gap-4 text-center items-center">
+                        <div className="hidden xl:hidden md:grid gap-4 text-center items-center">
                             <div className="flex flex-col gap-5 justify-start items-center mb-4">
                                 {logo_comp}
                                 <div className="flex space-x-4">{icons}</div>

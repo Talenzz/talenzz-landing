@@ -5,6 +5,7 @@ import { TextIconBox } from "../TextIconBox";
 import laptop from "../../assets/icons/laptop.svg";
 import crowdfunding from "../../assets/icons/crowdfunding.svg";
 import fans from "../../assets/icons/fans.svg";
+import { SectionHeadline } from "../SectionHeadline";
 
 interface InfoSectionProps {
     title: string;
@@ -18,12 +19,12 @@ export function InfoSection({ title, buttons, steps }: InfoSectionProps) {
     const icons = [crowdfunding, laptop, fans];
 
     const iconSections = steps.map((t, i) => {
-        let c = '';
+        let c = "";
 
-        if(i === 0) {
-            c = 'justify-self-start';
+        if (i === 0) {
+            c = "justify-self-start";
         } else if (i === steps.length - 1) {
-            c = 'justify-self-end';
+            c = "justify-self-end";
         }
 
         return (
@@ -54,9 +55,7 @@ export function InfoSection({ title, buttons, steps }: InfoSectionProps) {
     return (
         <div id="info-section">
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center content-center">
-                <p className="text-center text-5xl mb-4 lg:mb-0 font-bold">
-                    {title}
-                </p>
+                <SectionHeadline text={title} />
                 <div className="flex justify-center lg:block">{allButtons}</div>
             </div>
 

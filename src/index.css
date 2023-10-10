@@ -3,47 +3,47 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: 'Epilogue';
-    font-weight: 400;
-    font-style: normal;
-    src: url(./fonts/Epilogue-Regular.woff2) format("woff2");
-  }
+    @font-face {
+        font-family: "Epilogue";
+        font-weight: 400;
+        font-style: normal;
+        src: url(./fonts/Epilogue-Regular.woff2) format("woff2");
+    }
 
-  @font-face {
-    font-family: 'Epilogue';
-    font-weight: 700;
-    font-style: normal;
-    src: url(./fonts/Epilogue-Bold.woff2) format("woff2");
-  }
+    @font-face {
+        font-family: "Epilogue";
+        font-weight: 700;
+        font-style: normal;
+        src: url(./fonts/Epilogue-Bold.woff2) format("woff2");
+    }
 
-  @font-face {
-    font-family: 'Epilogue';
-    font-weight: 900;
-    font-style: normal;
-    src: url(./fonts/Epilogue-Black.woff2) format("woff2");
-  }
+    @font-face {
+        font-family: "Epilogue";
+        font-weight: 900;
+        font-style: normal;
+        src: url(./fonts/Epilogue-Black.woff2) format("woff2");
+    }
 }
 
 :root {
-  --white: #ffffff;
-  --black: #161511;
-  --salmon: #f4b5a8;
-  --sky: #affcf4;
-  --icterine: #fcf8b7;
-  --bodyGray: #ADADAD;
+    --white: #ffffff;
+    --black: #161511;
+    --salmon: #f4b5a8;
+    --sky: #affcf4;
+    --icterine: #fcf8b7;
+    --bodyGray: #adadad;
 
-  background-color: var(--white);
+    background-color: var(--white);
 
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }
 
 .logo {
-  height: 3em;
+    height: 3em;
 }

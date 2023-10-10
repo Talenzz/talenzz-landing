@@ -18,12 +18,12 @@ export function HeroHeader({ text }: HeroHeaderProps) {
                 src={header_image}
                 fallback={header_image_fallback}
                 alt="Background"
-                className="absolute w-full h-full object-cover brightness-25 z-0"
+                className="absolute w-full h-full object-cover object-center brightness-25 z-0"
             />
 
             <Header />
 
-            <div className="h-48 lg:h-72"></div>
+            <div className="h-24"></div>
 
             <div className="relative flex flex-col items-center justify-center h-full z-0 pb-14">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white flex flex-col items-center justify-center select-none">
