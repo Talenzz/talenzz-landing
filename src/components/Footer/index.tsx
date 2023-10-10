@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaDiscord, FaTiktok } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { ActionIcon } from "../ActionIcon";
 import { DefaultButton } from "../DefaultButton";
@@ -25,6 +25,14 @@ export function Footer({ text }: FooterProps) {
         {
             icon: <FaXTwitter className="text-xl text-black" />,
             link: text.social.twitter,
+        },
+        {
+            icon: <FaDiscord className="text-xl text-black" />,
+            link: text.social.discord,
+        },
+        {
+            icon: <FaTiktok className="text-xl text-black" />,
+            link: text.social.tiktok,
         },
     ];
 

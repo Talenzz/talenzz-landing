@@ -72,5 +72,7 @@ export interface Footer {
         facebook: string;
         instagram: string;
         twitter: string;
+        tiktok: string;
+        discord: string;
     };
 }
