@@ -14,7 +14,7 @@ function App() {
         <>
             <HeroHeader text={text.hero} />
 
-            <div className="h-20 lg:h-24" />
+            <div className="h-12" />
 
             <PageContainer>
                 <StatsSection

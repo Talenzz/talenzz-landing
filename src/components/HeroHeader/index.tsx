@@ -26,21 +26,21 @@ export function HeroHeader({ text }: HeroHeaderProps) {
             <div className="h-24"></div>
 
             <div className="relative flex flex-col items-center justify-center h-full z-0 pb-14">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white flex flex-col items-center justify-center select-none">
-                    <div className="flex items-center text-center">
+                <h1 className="text-2xl md:text-4xl lg:text-7xl font-bold text-white flex flex-col items-center justify-center select-none">
+                    <div className="flex items-center">
                         <img
                             src={logo}
                             alt="logo"
-                            className="lg:h-24 md:h-20 h-12 w-auto mx-4 align-middle mt-2 md:mt-3 lg:mt-4"
+                            className="lg:h-24 md:h-14 h-9 w-auto mx-3 md:mx-4 align-middle mt-1 md:mt-2 lg:mt-4"
                         />
-                        <span>ist das erste</span>
+                        <span className="w-full">ist das erste</span>
                     </div>
                     <div className="text-center">
                         <span>Community Label.</span>
                     </div>
                 </h1>
                 <div className="h-4"></div>
-                <p className="text-xl md:text-2xl text-white mt-4 mb-8 text-center w-7/12 lg:w-54p">
+                <p className="text-lg md:text-2xl text-white mt-4 mb-8 text-center w-7/12 lg:w-54p">
                     {text.subline}
                 </p>
                 <DefaultButton
