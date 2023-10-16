@@ -33,7 +33,7 @@ export function HeroHeader({ text }: HeroHeaderProps) {
                         <span className="w-full">ist das erste</span>
                     </div>
                     <div className="text-center">
-                        <span>Community Label.</span>
+                        <span>Community Musiklabel.</span>
                     </div>
                 </h1>
                 <div className="h-4"></div>
