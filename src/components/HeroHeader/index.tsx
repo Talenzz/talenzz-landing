@@ -43,7 +43,7 @@ export function HeroHeader({ text }: HeroHeaderProps) {
                 <DefaultButton
                     text="Coming soon!"
                     bgColor={"bg-white"}
-                    className="mb-8 lg:text-xl"
+                    className="mb-8 lg:text-xl cursor-not-allowed"
                 />
             </div>
         </div>
