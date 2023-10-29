@@ -1,3 +1,5 @@
+import 'vanilla-cookieconsent/dist/cookieconsent.css';
+
 import { InfoSection } from "./components/InfoSection";
 import { HeroHeader } from "./components/HeroHeader";
 import { PageContainer } from "./components/PageContainer";
@@ -6,6 +8,7 @@ import { StatsSection } from "./components/StatsSection";
 import { GetPageText } from "./utils";
 import { ApplySection } from "./components/ApplySection";
 import { SectionHeadline } from "./components/SectionHeadline";
+import { CookieConsent } from './components/CookieConsent';
 
 function App() {
     const text = GetPageText();
@@ -54,6 +57,7 @@ function App() {
                 </div>
             </PageContainer>
             <Footer text={text.footer} />
+            <CookieConsent />
         </>
     );
 }

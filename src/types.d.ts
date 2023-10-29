@@ -76,3 +76,12 @@ export interface Footer {
         discord: string;
     };
 }
+
+// Cookie
+
+declare global {
+    interface Window {
+        CC: CookieConsent;
+
+    }
+}
