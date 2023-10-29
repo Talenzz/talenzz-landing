@@ -7,6 +7,7 @@ import { Footer as FooterType } from "../../types";
 import brainstorm_logo from "../../assets/images/brainstorm_logo.svg";
 import emergenza_logo from "../../assets/images/emergenza_logo.svg";
 import logo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 interface FooterProps {
     text: FooterType;
@@ -79,12 +80,14 @@ export function Footer({ text }: FooterProps) {
         terms: (
             <>
                 <div>
-                    <a href={text.info.imprint.link}>
+                    <Link to={text.info.imprint.link}>
                         {text.info.imprint.text}
-                    </a>
+                    </Link>
                 </div>
                 <div>
-                    <a href={text.info.terms.link}>{text.info.terms.text}</a>
+                    <Link to={text.info.terms.link}>
+                        {text.info.terms.text}
+                    </Link>
                 </div>
             </>
         ),

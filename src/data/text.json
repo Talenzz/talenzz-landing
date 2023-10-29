@@ -86,11 +86,11 @@
             },
             "imprint": {
                 "text": "Impressum",
-                "link": "https://www.talenzz.io/impressum"
+                "link": "/impressum"
             },
             "terms": {
                 "text": "Datenschutzerklärung",
-                "link": "https://www.talenzz.io/agb"
+                "link": "/datenschutz"
             }
         },
         "social": {
