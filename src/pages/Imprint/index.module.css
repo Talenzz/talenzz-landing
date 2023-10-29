@@ -1,0 +1,22 @@
+.imprint h1 {
+    @apply text-4xl font-bold;
+    padding: 2rem 0;
+}
+
+.imprint h2 {
+    @apply text-3xl;
+    padding: 1rem 0;
+}
+
+.imprint p {
+    @apply text-base;
+    padding-bottom: 1rem;
+}
+
+.imprint a {
+    @apply text-blue-500;
+}
+
+.imprint strong {
+    @apply font-semibold;
+}

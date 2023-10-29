@@ -1,0 +1,22 @@
+.privacyPolicy h1 {
+    @apply text-4xl font-bold;
+    padding: 2rem 0;
+}
+
+.privacyPolicy h2 {
+    @apply text-3xl;
+    padding: 1rem 0;
+}
+
+.privacyPolicy p {
+    @apply text-base;
+    padding-bottom: 1rem;
+}
+
+.privacyPolicy a {
+    @apply text-blue-500;
+}
+
+.privacyPolicy strong {
+    @apply font-semibold;
+}
