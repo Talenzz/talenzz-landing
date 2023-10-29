@@ -1,6 +1,6 @@
 {
     "hero": {
-        "headline": "ist das erste Community Label.",
+        "headline": "ist das erste Community Musiklabel.",
         "subline": "Talenzz demokratisiert die Musiklandschaft. Werdet von Fans zu Schlüsselpartnern - 1000 echte Fans machen den Unterschied. Entdecke neue Musik, empfehle Deine Topsongs der Community und unterstütze Deine Lieblingskünstlerinnen.",
         "button": {
             "text": "Mehr erfahren",
@@ -47,14 +47,14 @@
     },
     "transition": {
         "title": "Musik ist der Schmierstoff des Lebens",
-        "description": "Trotzdem können viele Künstlerinnen und Künstler nicht von ihrer Kunst leben. Durch unfaire Verträge werden die Einnahmen durch Streams noch kleiner, als sie eh schon sind. Auf Talenzz haben alle Musikschaffenden die Möglichkeit sich über ihre Fans finanzieren zu lassen und behalten gleichzeitig die volle Kontrolle, wie viele Rechte sie abgeben möchten. Gleichzeitig bekommen Fans die Möglichkeit am potenziellen Erfolg teilzuhaben und spannende Rewards zu erhalten."
+        "description": "Trotzdem können viele Künstlerinnen und Künstler nicht von ihrer Kunst leben. Durch unfaire Verträge werden die Einnahmen durch Streams noch kleiner, als sie eh schon sind. Auf Talenzz haben alle Musikschaffenden die Möglichkeit sich über ihre Fans finanzieren zu lassen und behalten gleichzeitig die volle Kontrolle, wie viele Rechte sie abgeben möchten. Zusätzlich bekommen Fans die Möglichkeit am potenziellen Erfolg teilzuhaben und spannende Rewards zu erhalten."
     },
     "apply": {
         "title": "Lust auf mehr?",
         "description": [
-            "Talenzz gibt einigen KünstlerInnen und Bands die Möglichkeit direkt von unserem Netzwerk zu profitieren und von uns, zusätzlich zum Support der Fans, noch Budget zu bekommen. Wenn ihr dafür ausgewählt werdet, bekommt ihr auf der zukünftigen Plattform den Batch \"Talenzz Artist\" neben eurem Namen. Bewerbungskriterien gibt es keine - also schickt uns eure Musik!",
+            "Talenzz gibt einigen KünstlerInnen und Bands die Möglichkeit direkt von unserem Netzwerk zu profitieren und von uns, zusätzlich zum Support der Fans, noch Budget zu bekommen. Wenn ihr dafür ausgewählt werdet, bekommt ihr auf der zukünftigen Plattform den Batch \"Talenzz Artist\" neben eurem Namen. Bewerbungskriterium ist ein bestehendes Spotify-Profil/ein Link zu eurer Musik auf einem gängigen Musikstreaming Dienst - also schickt uns eure Musik!",
             "Einmal ausgewählt, werdet ihr von uns begleitet, um auch andere von eurem Erfolg, eurer Erfahrung und eurer Geschichte profitieren lassen zu können. Das beinhaltet z.B. spezielle Features auf unserer Seite, Interviews, Tourbeiträge, Videos, o.Ä. Alles was ihr uns dafür schuldet ist eure Zeit und Motivation!",
-            "Zusätzlich wird es auf Talenzz auch monatliche Workshops mit bekannten Experten über die Musikbranche geben, damit ihr euch besser zurechtfinden könnt. Aber keine Angst: auch wenn ihr nicht BotschafterInnen werdet, könnt ihr an den Workshops teilnehmen, oder sie zu einem späteren Zeitpunkt nochmal ansehen."
+            "Zusätzlich wird es auf Talenzz auch monatliche Workshops mit bekannten ExpertInnen über die Musikbranche geben, damit ihr euch besser zurechtfinden könnt. Aber keine Angst: auch wenn ihr nicht BotschafterInnen werdet, könnt ihr an den Workshops teilnehmen, oder sie zu einem späteren Zeitpunkt nochmal ansehen."
         ],
         "button": {
             "text": "Hier bewerben!",
