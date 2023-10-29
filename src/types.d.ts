@@ -78,7 +78,6 @@ export interface Footer {
 }
 
 // Cookie
-
 declare global {
     interface Window {
         CC: CookieConsent;

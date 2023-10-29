@@ -7,11 +7,12 @@ const pluginConfig: UserConfig = {
     autoclear_cookies: true, // default: false
     page_scripts: true, // default: false
 
+    // @ts-ignore
     onFirstAction: function (userPreferences: UserPreferences, cookie: SavedCookieContent) {
         // callback triggered only once
-        const analyticsEnabled = window.CC.allowedCategory('analytics');
     },
 
+    // @ts-ignore
     onAccept: function (savedCookieContent: SavedCookieContent) {
         if (window.CC.allowedCategory('analytics')) {
             // load GA
@@ -19,6 +20,7 @@ const pluginConfig: UserConfig = {
         }
     },
 
+    // @ts-ignore
     onChange: function (cookie: SavedCookieContent, changedCookieCategories: string[]) {
         if (changedCookieCategories.includes('analytics')) {
             const isAnalyticsEnabled = window.CC.allowedCategory('analytics');
