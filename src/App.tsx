@@ -7,21 +7,27 @@ import ImprintPage from "./pages/Imprint";
 import PrivacyPolicyPage from "./pages/PrivacyPolicy";
 
 function App() {
-    const router = createBrowserRouter([
+    const baseUrl = import.meta.env.VITE_BASE_URL ?? "/";
+    const router = createBrowserRouter(
+        [
+            {
+                path: "/",
+                Component: HomePage,
+                ErrorBoundary: ErrorPage,
+            },
+            {
+                path: "/impressum",
+                Component: ImprintPage,
+            },
+            {
+                path: "/datenschutz",
+                Component: PrivacyPolicyPage,
+            },
+        ],
         {
-            path: "/",
-            Component: HomePage,
-            ErrorBoundary: ErrorPage,
-        },
-        {
-            path: "/impressum",
-            Component: ImprintPage,
-        },
-        {
-            path: "/datenschutz",
-            Component: PrivacyPolicyPage,
-        },
-    ]);
+            basename: baseUrl,
+        }
+    );
 
     return (
         <>
