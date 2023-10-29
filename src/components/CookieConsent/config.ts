@@ -10,21 +10,18 @@ const pluginConfig: UserConfig = {
     onFirstAction: function (userPreferences: UserPreferences, cookie: SavedCookieContent) {
         // callback triggered only once
         const analyticsEnabled = window.CC.allowedCategory('analytics');
-        console.log(`analytics ${analyticsEnabled ? 'enabled' : 'disabled'}`);
     },
 
     onAccept: function (savedCookieContent: SavedCookieContent) {
         if (window.CC.allowedCategory('analytics')) {
             // load GA
             loadGoogleAnalytics(gaLoaded);
-            console.log('analytics enabled');
         }
     },
 
     onChange: function (cookie: SavedCookieContent, changedCookieCategories: string[]) {
         if (changedCookieCategories.includes('analytics')) {
             const isAnalyticsEnabled = window.CC.allowedCategory('analytics');
-            console.log(`analytics ${isAnalyticsEnabled ? 'enabled' : 'disabled'}`);
             updateAnalyticsConsent(isAnalyticsEnabled);
         }
     },
