@@ -45,7 +45,7 @@ Impressum: [https://www.talenzz.io/impressum/](https://www.talenzz.io/impressum/
 
 ## EU-Streitschlichtung
 
-Unter folgendem Link kann die Plattform der Europäischen Kommission zur Online-Streitbeilegung (OS) für Privatpersonen: [https://ec.europa.eu/consumers/odr/](https://ec.europa.eu/consumers/odr/) genutzt werden. biddz ist nicht bereit und nicht verpflichtet an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+Unter folgendem Link kann die Plattform der Europäischen Kommission zur Online-Streitbeilegung (OS) für Privatpersonen: [https://ec.europa.eu/consumers/odr/](https://ec.europa.eu/consumers/odr/) genutzt werden. Talenzz ist nicht bereit und nicht verpflichtet an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
 ## Haftung für Inhalte dieser Website
 
