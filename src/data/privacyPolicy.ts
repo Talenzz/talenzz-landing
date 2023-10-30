@@ -25,6 +25,7 @@ Stand Oktober 2023
 
 
 **01. Name und Anschrift des Verantwortlichen**
+
 Der Verantwortliche im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer datenschutzrechtlicher Bestimmungen ist:
 
 Talenzz GmbH
