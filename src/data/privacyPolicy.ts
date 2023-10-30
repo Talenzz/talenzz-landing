@@ -1,5 +1,5 @@
 export const privacyPolicyContent = `
-# Datenschutzerklärung
+Datenschutzerklärung
 
 Stand Oktober 2023
 
