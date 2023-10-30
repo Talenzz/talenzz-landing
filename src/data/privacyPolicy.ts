@@ -1,30 +1,30 @@
 export const privacyPolicyContent = `
-Datenschutzerklärung
+# Datenschutzerklärung
 
 Stand Oktober 2023
 
 **Inhaltsverzeichnis**
 
-*01. Name und Anschrift des Verantwortlichen*
+**01. Name und Anschrift des Verantwortlichen**
 
-*02. Kontaktdaten des Datenschutzbeauftragten*
+**02. Kontaktdaten des Datenschutzbeauftragten**
 
-*03. Datenverarbeitung auf der Landingpage Talenzz*
+**03. Datenverarbeitung auf der Landingpage Talenzz**
 
-*04. Rechte der betroffenen Person*
+**04. Rechte der betroffenen Person**
 
-*05. Bereitstellung der Plattform und Erstellung der Logfiles*
+**05. Bereitstellung der Plattform und Erstellung der Logfiles**
 
-*06. Verwendung von Cookies*
+**06. Verwendung von Cookies**
 
-*07. Newsletter*
+**07. Newsletter**
 
-*08. Unternehmensauftritte*
+**08. Unternehmensauftritte**
 
-*09. Hosting*
+**09. Hosting**
 
 
-*01. Name und Anschrift des Verantwortlichen*
+**01. Name und Anschrift des Verantwortlichen**
 Der Verantwortliche im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer datenschutzrechtlicher Bestimmungen ist:
 
 Talenzz GmbH
@@ -65,9 +65,9 @@ Die Verarbeitung dient zur Einhaltung unserer gesetzlichen Verpflichtungen und s
 Die für die Dienstleistung von uns erhobenen personenbezogenen Daten werden gemäß Art. 6 Abs. 1 S. 1 lit. c DSGVO nach Ablauf der steuer- und handelsrechtlichen Aufbewahrungs- und Dokumentationspflichten (aus HGB, StGB oder AO) gelöscht, sofern Sie nicht in eine darüber hinausgehende Speicherung nach Art. 6 Abs. 1 S. 1 lit. a DSGVO eingewilligt haben.
 
 5. Widerspruchs- und Beseitigungsmöglichkeit
-Der Nutzer kann jederzeit von seinem Recht auf Widerruf Gebrauch machen, indem er sich an support@talenzz.io wendet. Sollte der Nutzer der Verarbeitung seiner personenbezogenen Daten zum Zwecke der Erfüllung der Dienstleistung widersprechen, so kann er die Plattform nicht nutzen. Bei Marketing- und Werbezwecken kann der Nutzer elektronisch widersprechen.
+Der Nutzer kann jederzeit von seinem Recht auf Widerruf Gebrauch machen, indem er sich an [support@talenzz.io](mailto:support@talenzz.io) wendet. Sollte der Nutzer der Verarbeitung seiner personenbezogenen Daten zum Zwecke der Erfüllung der Dienstleistung widersprechen, so kann er die Plattform nicht nutzen. Bei Marketing- und Werbezwecken kann der Nutzer elektronisch widersprechen.
 
-04. Rechte der betroffenen Person
+**04. Rechte der betroffenen Person**
 Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i.S.d. DSGVO und es stehen Ihnen folgende Rechte gegenüber dem Verantwortlichen zu:
 
 1. Auskunftsrecht
@@ -75,14 +75,15 @@ Sie können von dem Verantwortlichen eine Bestätigung darüber verlangen, ob pe
 
 Liegt eine solche Verarbeitung vor, können Sie von dem Verantwortlichen über folgende Informationen Auskunft verlangen:
 
-die Zwecke, zu denen die personenbezogenen Daten verarbeitet werden;
-die Kategorien von personenbezogenen Daten, welche verarbeitet werden;
-die Empfänger bzw. die Kategorien von Empfängern, gegenüber denen die Sie betreffenden personenbezogenen Daten offengelegt wurden oder noch offengelegt werden;
-die geplante Dauer der Speicherung der Sie betreffenden personenbezogenen Daten oder, falls konkrete Angaben hierzu nicht möglich sind, Kriterien für die Festlegung der Speicherdauer;
-das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten, eines Rechts auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung;
-das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;
-alle verfügbaren Informationen über die Herkunft der Daten, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden;
-das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Art. 22 Abs. 1 und 4 DSGVO und zumindest in diesen Fällen - aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person.
+- die Zwecke, zu denen die personenbezogenen Daten verarbeitet werden;
+- die Kategorien von personenbezogenen Daten, welche verarbeitet werden;
+- die Empfänger bzw. die Kategorien von Empfängern, gegenüber denen die Sie betreffenden personenbezogenen Daten offengelegt wurden oder noch offengelegt werden;
+- die geplante Dauer der Speicherung der Sie betreffenden personenbezogenen Daten oder, falls konkrete Angaben hierzu nicht möglich sind, Kriterien für die Festlegung der Speicherdauer;
+- das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten, eines Rechts auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung;
+- das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;
+- alle verfügbaren Informationen über die Herkunft der Daten, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden;
+- das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Art. 22 Abs. 1 und 4 DSGVO und zumindest in diesen Fällen - aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person.
+
 Ihnen steht das Recht zu, Auskunft darüber zu verlangen, ob die Sie betreffenden personenbezogenen Daten in ein Drittland oder an eine internationale Organisation übermittelt werden. In diesem Zusammenhang können Sie verlangen, über die geeigneten Garantien gem. Art. 46 DSGVO im Zusammenhang mit der Übermittlung unterrichtet zu werden.
 
 2. Recht auf Berichtigung
@@ -118,11 +119,12 @@ c) Ausnahmen
 
 Das Recht auf Löschung besteht nicht, soweit die Verarbeitung erforderlich ist
 
-zur Ausübung des Rechts auf freie Meinungsäußerung und Information.
-zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder der Mitgliedstaaten, dem der Verantwortliche unterliegt, erfordert, oder zur Wahrnehmung einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;
-aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Art. 9 Abs. 2 lit. h und i sowie Art. 9 Abs. 3 DSGVO;
-für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder für statistische Zwecke gem. Art. 89 Abs. 1 DSGVO, soweit das unter Abschnitt a) genannte Recht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung unmöglich macht oder ernsthaft beeinträchtigt, oder
+- zur Ausübung des Rechts auf freie Meinungsäußerung und Information.
+- zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder der Mitgliedstaaten, dem der Verantwortliche unterliegt, erfordert, oder zur Wahrnehmung einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;
+- aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Art. 9 Abs. 2 lit. h und i sowie Art. 9 Abs. 3 DSGVO;
+- für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder für statistische Zwecke gem. Art. 89 Abs. 1 DSGVO, soweit das unter Abschnitt a) genannte Recht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung unmöglich macht oder ernsthaft beeinträchtigt, oder
 zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+
 5. Recht auf Unterrichtung
 Haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung gegenüber dem Verantwortlichen geltend gemacht, ist dieser verpflichtet, allen Empfängern, denen die Sie betreffenden personenbezogenen Daten offengelegt wurden, diese Berichtigung oder Löschung der Daten oder Einschränkung der Verarbeitung mitzuteilen, es sei denn, dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden.
 
@@ -166,18 +168,18 @@ Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechts
 
 Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde einschließlich der Möglichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78 DSGVO.
 
-05. Bereitstellung der Plattform und Erstellung der Logfiles
+**05. Bereitstellung der Plattform und Erstellung der Logfiles**
 1. Beschreibung und Umfang der Datenverarbeitung
 Bei jedem Aufruf unserer Plattform erfasst unser System automatisiert Daten und Informationen vom Betriebssystem des aufrufenden Geräts.
 
 Folgende Daten werden hierbei erhoben:
 
-Informationen über den Browsertyp und die verwendete Version
-Das Betriebssystem des Nutzers
-Die IP-Adresse des Nutzers
-Den Internet-Service-Provider des Nutzers
-Datum und Uhrzeit des Zugriffs
-Diese Daten werden in den Logfiles unseres Systems gespeichert. Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten des Nutzers findet nicht statt.
+- Informationen über den Browsertyp und die verwendete Version
+- Das Betriebssystem des Nutzers
+- Die IP-Adresse des Nutzers
+- Den Internet-Service-Provider des Nutzers
+- Datum und Uhrzeit des Zugriffs
+- Diese Daten werden in den Logfiles unseres Systems gespeichert. Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten des Nutzers findet nicht statt.
 
 2. Zweck der Datenverarbeitung
 Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Plattform an das Gerät des Nutzers zu ermöglichen. Hierfür muss die IP-Adresse des Nutzers für die Dauer der Sitzung gespeichert bleiben.
@@ -198,7 +200,7 @@ Im Falle der Speicherung der Daten in Logfiles ist dies nach spätestens sieben 
 
 Die Erfassung der Daten zur Bereitstellung der Plattform und die Speicherung der Daten in Logfiles ist für den Betrieb der Plattform zwingend erforderlich.
 
-06. Verwendung von Cookies
+**06. Verwendung von Cookies**
 1. Beschreibung und Umfang der Datenverarbeitung
 Unsere Plattform verwendet Cookies. Bei Cookies handelt es sich um Textdateien, die im Internetbrowser bzw. vom Internetbrowser auf dem Gerät des Nutzers gespeichert werden. Ruft ein Nutzer eine Plattform auf, so kann ein Cookie auf dem Betriebssystem des Nutzers gespeichert werden. Dieser Cookie enthält eine charakteristische Zeichenfolge, die eine eindeutige Identifizierung des Geräts beim erneuten Aufrufen der Plattform ermöglicht.
 
@@ -206,17 +208,14 @@ Wir setzen Cookies ein, um unsere Plattform nutzerfreundlicher zu gestalten. Ein
 
 In die Cookies werden dabei folgende Daten gespeichert und übermittelt:
 
-Spracheinstellungen
-Artikel im Warenkorb
-Log-In-Informationen
-Eingegebene Suchbegriffe
 Häufigkeit von Seitenaufrufen
-Inanspruchnahme von Plattform-Funktionen
+
 Wir verwenden in unserer Plattform darüber hinaus Cookies, die eine Analyse des Surfverhaltens der Nutzer ermöglichen.
 
 Auf diese Weise können folgende Daten übermittelt werden:
 
-Nutzungsverhalten
+- Nutzungsverhalten
+
 Die auf diese Weise erhobenen Daten der Nutzer werden durch technische Vorkehrungen pseudonymisiert. Daher ist eine Zuordnung der Daten zum aufrufenden Nutzer nicht mehr möglich. Die Daten werden nicht gemeinsam mit sonstigen personenbezogenen Daten der Nutzer gespeichert.
 
 2. Zweck der Datenverarbeitung
@@ -224,9 +223,6 @@ Der Zweck der Verwendung technisch notwendiger Cookies ist, die Nutzung der Plat
 
 Für folgende Anwendungen benötigen wir Cookies:
 
-Übernahme von Spracheinstellungen
-Warenkorb
-Merken von Suchbegriffen
 Die durch technisch notwendige Cookies erhobenen Nutzerdaten werden nicht zur Erstellung von Nutzerprofilen verwendet.
 
 Die Verwendung der Analyse-Cookies erfolgt zu dem Zweck, die Qualität unserer Webseite und ihre Inhalte zu verbessern. Durch die Analyse-Cookies erfahren wir, wie die Webseite genutzt wird und können so unser Angebot stetig optimieren.
@@ -240,18 +236,22 @@ Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendu
 
 Cookies werden auf dem Gerät des Nutzers gespeichert und von diesem an unserer Seite übermittelt. Daher haben Sie als Nutzer auch die volle Kontrolle über die Verwendung von Cookies. Durch eine Änderung der Einstellungen in Ihrem Internetbrowser können Sie die Übertragung von Cookies deaktivieren oder einschränken. Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert erfolgen. Werden Cookies für unsere Plattform blockiert, können möglicherweise nicht mehr alle Funktionen der Plattform vollumfänglich genutzt werden.
 
-07. Newsletter
+**07. Newsletter**
 1. Beschreibung und Umfang der Datenverarbeitung
 Auf unserer Plattform besteht die Möglichkeit, einen kostenfreien Newsletter zu abonnieren. Dabei werden bei der Anmeldung zum Newsletter die Daten aus der Eingabemaske an uns übermittelt.
 
 E Mail Adresse
 Name
 Vorname
-Pseudonym
+Fan/KünstlerIn
 Telefon- / Handynummer
 IP-Adresse des aufrufenden Rechners
 Datum und Uhrzeit der Registrierung
 Es erfolgt im Zusammenhang mit der Datenverarbeitung für den Versand von Newslettern keine Weitergabe der Daten an Dritte. Die Daten werden ausschließlich für den Versand des Newsletters verwendet.
+
+Anbieter:
+Brevo (ehem. Sendinblue) GmbH, Köpenicker Straße 126, 10179 Berlin, Deutschland
+Kontakt: [datenschutz@brevo.com](mailto:datenschutz@brevo.com)
 
 2. Zweck der Datenverarbeitung
 Die Erhebung der Emailadresse des Nutzers dient dazu, den Newsletter zuzustellen.
@@ -271,7 +271,7 @@ Das Abonnement des Newsletters kann durch den betroffenen Nutzer jederzeit gekü
 
 Hierdurch wird ebenfalls ein Widerruf der Einwilligung der Speicherung der während des Anmeldevorgangs erhobenen personenbezogenen Daten ermöglicht.
 
-08. Unternehmensauftritte
+**08. Unternehmensauftritte**
 Wir nutzen unterschiedliche Netzwerke für unsere Unternehmensauftritte. Beim Einsatz einiger Netzwerke können personenbezogene Daten auf Server in den USA übertragen werden. Zur Gewährleistung von geeigneten Garantien zum Schutz der Übermittlung und der Verarbeitung personenbezogener Daten außerhalb der EU erfolgt die Datenübermittlung an und Datenverarbeitung durch die im Folgenden aufgeführten auf Basis geeigneter Garantien nach Art. 46 ff DSGVO, insbesondere durch den Abschluss von sogenannten Standarddatenschutzklauseln nach Art. 46 Abs. 2 lit. c DSGVO.
 
 1. Instagram
@@ -299,7 +299,7 @@ Die durch den Unternehmensauftritt generierten Daten werden in unseren eigenen S
 
 Sie können der Verarbeitung Ihrer personenbezogenen Daten, die wir im Rahmen Ihrer Nutzung unseres Instagram - Unternehmensauftritt erfassen, jederzeit widersprechen und Ihre unter IV. dieser Datenschutzerklärung genannten Betroffenenrechte geltend machen. Senden Sie uns dazu eine formlose Email an support@talenzz.io. Zur Verarbeitung Ihrer personenbezogenen Daten durch Instagram und die entsprechenden Widerspruchsmöglichkeiten finden Sie weitere Informationen hier:
 
-Instagram: https://help.instagram.com/519522125107875
+Instagram: [https://help.instagram.com/519522125107875](https://help.instagram.com/519522125107875)
 
 2. Twitter
 Twitter International Company, One Cumberland Place, Fenian Street, Dublin 2, Ireland
@@ -327,7 +327,7 @@ Die durch den Unternehmensauftritt generierten Daten werden nicht in unseren eig
 
 Sie können der Verarbeitung Ihrer personenbezogenen Daten, die wir im Rahmen Ihrer Nutzung unseres Twitter - Unternehmensauftritt erfassen, jederzeit widersprechen und Ihre unter IV. dieser Datenschutzerklärung genannten Betroffenenrechte geltend machen. Senden Sie uns dazu eine formlose Email an support@talenzz.io. Zur Verarbeitung Ihrer personenbezogenen Daten durch Twitter und die entsprechenden Widerspruchsmöglichkeiten finden Sie weitere Informationen hier:
 
-Twitter: https://twitter.com/de/privacy
+Twitter: [https://twitter.com/de/privacy](https://twitter.com/de/privacy)
 
 3. TikTok
 TikTok Technology Limited, 10 Earlsfort Terrace, Dublin, D02 T380, Irland
@@ -355,7 +355,7 @@ Die durch den Unternehmensauftritt generierten Daten werden nicht in unseren eig
 
 Sie können der Verarbeitung Ihrer personenbezogenen Daten, die wir im Rahmen Ihrer Nutzung unseres TikTok - Unternehmensauftritts erfassen, jederzeit widersprechen und Ihre unter IV. dieser Datenschutzerklärung genannten Betroffenenrechte geltend machen. Senden Sie uns dazu eine formlose Email an support@talenzz.io. Zur Verarbeitung Ihrer personenbezogenen Daten durch TikTok und die entsprechenden Widerspruchsmöglichkeiten finden Sie weitere Informationen hier:
 
-Twitter: https://www.tiktok.com/legal/privacy-policy-eea?lang=de
+Twitter: [https://www.tiktok.com/legal/privacy-policy-eea?lang=de](https://www.tiktok.com/legal/privacy-policy-eea?lang=de)
 
 4. Facebook
 Facebook Ireland Ltd., 4 Grand Canal Square Grand Canal Harbour, Dublin 2 Ireland
@@ -382,9 +382,9 @@ Die durch den Unternehmensauftritt generierten Daten werden in unseren eigenen S
 
 Sie können der Verarbeitung Ihrer personenbezogenen Daten, die wir im Rahmen Ihrer Nutzung unseres Instagram - Unternehmensauftritt erfassen, jederzeit widersprechen und Ihre unter IV. dieser Datenschutzerklärung genannten Betroffenenrechte geltend machen. Senden Sie uns dazu eine formlose Email an support@talenzz.io. Zur Verarbeitung Ihrer personenbezogenen Daten durch Instagram und die entsprechenden Widerspruchsmöglichkeiten finden Sie weitere Informationen hier:
 
-Facebook: https://www.facebook.com/legal/terms
+Facebook: [https://www.facebook.com/legal/terms](https://www.facebook.com/legal/terms)
 
-09. Hosting
+**09. Hosting**
 Die Plattform wird auf Servern von einem durch uns beauftragten Dienstleister gehostet.
 
 Unser Dienstleister ist:
