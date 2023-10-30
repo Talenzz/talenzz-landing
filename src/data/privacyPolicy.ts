@@ -1,30 +1,30 @@
 export const privacyPolicyContent = `
-Datenschutzerklärung
+# Datenschutzerklärung
 
 Stand Oktober 2023
 
-Inhaltsverzeichnis
+**Inhaltsverzeichnis**
 
-01. Name und Anschrift des Verantwortlichen
+*01. Name und Anschrift des Verantwortlichen*
 
-02. Kontaktdaten des Datenschutzbeauftragten
+*02. Kontaktdaten des Datenschutzbeauftragten*
 
-03. Datenverarbeitung auf der Landingpage Talenzz
+*03. Datenverarbeitung auf der Landingpage Talenzz*
 
-04. Rechte der betroffenen Person
+*04. Rechte der betroffenen Person*
 
-05. Bereitstellung der Plattform und Erstellung der Logfiles
+*05. Bereitstellung der Plattform und Erstellung der Logfiles*
 
-06. Verwendung von Cookies
+*06. Verwendung von Cookies*
 
-07. Newsletter
+*07. Newsletter*
 
-08. Unternehmensauftritte
+*08. Unternehmensauftritte*
 
-09. Hosting
+*09. Hosting*
 
 
-01. Name und Anschrift des Verantwortlichen
+*01. Name und Anschrift des Verantwortlichen*
 Der Verantwortliche im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer datenschutzrechtlicher Bestimmungen ist:
 
 Talenzz GmbH
@@ -37,14 +37,14 @@ Deutschland
 
 Telefon: coming soon
 
-Email: support@talenzz.io
+Email: [support@talenzz.io](mailto:support@talenzz.io) 
 
-Webseite (URL): https://talenzz.io/
+Webseite (URL): [https://www.talenzz.io](https://www.talenzz.io)
 
-02. Kontaktdaten Datenschutzfragen
-Für Fragen zum Thema Datenschutz bei Talenzz wenden Sie sich bitte an: support@talenzz.io
+*02. Kontaktdaten Datenschutzfragen*
+Für Fragen zum Thema Datenschutz bei Talenzz wenden Sie sich bitte an: [support@talenzz.io](mailto:support@talenzz.io) 
 
-03. Datenverarbeitung auf der Landingpage Talenzz:
+*03. Datenverarbeitung auf der Landingpage Talenzz:*
 Auf dieser Seite informieren wir Sie über die in der Talenzz Landingpage geltenden Datenschutzbestimmungen. Die Landingpage ist ein Angebot der Talenzz GmbH, Weidachstraße 13, 87541 Bad Hindelang, Deutschland ("Talenzz", "wir" oder "uns").
 
 1. Umfang der Verarbeitung
