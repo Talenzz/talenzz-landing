@@ -42,10 +42,12 @@ Email: [support@talenzz.io](mailto:support@talenzz.io)
 
 Webseite (URL): [https://www.talenzz.io](https://www.talenzz.io)
 
-*02. Kontaktdaten Datenschutzfragen*
+**02. Kontaktdaten Datenschutzfragen**
+
 Für Fragen zum Thema Datenschutz bei Talenzz wenden Sie sich bitte an: [support@talenzz.io](mailto:support@talenzz.io) 
 
-*03. Datenverarbeitung auf der Landingpage Talenzz:*
+**03. Datenverarbeitung auf der Landingpage Talenzz:**
+
 Auf dieser Seite informieren wir Sie über die in der Talenzz Landingpage geltenden Datenschutzbestimmungen. Die Landingpage ist ein Angebot der Talenzz GmbH, Weidachstraße 13, 87541 Bad Hindelang, Deutschland ("Talenzz", "wir" oder "uns").
 
 1. Umfang der Verarbeitung
@@ -69,6 +71,7 @@ Die für die Dienstleistung von uns erhobenen personenbezogenen Daten werden gem
 Der Nutzer kann jederzeit von seinem Recht auf Widerruf Gebrauch machen, indem er sich an [support@talenzz.io](mailto:support@talenzz.io) wendet. Sollte der Nutzer der Verarbeitung seiner personenbezogenen Daten zum Zwecke der Erfüllung der Dienstleistung widersprechen, so kann er die Plattform nicht nutzen. Bei Marketing- und Werbezwecken kann der Nutzer elektronisch widersprechen.
 
 **04. Rechte der betroffenen Person**
+
 Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i.S.d. DSGVO und es stehen Ihnen folgende Rechte gegenüber dem Verantwortlichen zu:
 
 1. Auskunftsrecht
@@ -170,6 +173,7 @@ Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechts
 Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde einschließlich der Möglichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78 DSGVO.
 
 **05. Bereitstellung der Plattform und Erstellung der Logfiles**
+
 1. Beschreibung und Umfang der Datenverarbeitung
 Bei jedem Aufruf unserer Plattform erfasst unser System automatisiert Daten und Informationen vom Betriebssystem des aufrufenden Geräts.
 
@@ -202,6 +206,7 @@ Im Falle der Speicherung der Daten in Logfiles ist dies nach spätestens sieben 
 Die Erfassung der Daten zur Bereitstellung der Plattform und die Speicherung der Daten in Logfiles ist für den Betrieb der Plattform zwingend erforderlich.
 
 **06. Verwendung von Cookies**
+
 1. Beschreibung und Umfang der Datenverarbeitung
 Unsere Plattform verwendet Cookies. Bei Cookies handelt es sich um Textdateien, die im Internetbrowser bzw. vom Internetbrowser auf dem Gerät des Nutzers gespeichert werden. Ruft ein Nutzer eine Plattform auf, so kann ein Cookie auf dem Betriebssystem des Nutzers gespeichert werden. Dieser Cookie enthält eine charakteristische Zeichenfolge, die eine eindeutige Identifizierung des Geräts beim erneuten Aufrufen der Plattform ermöglicht.
 
@@ -238,6 +243,7 @@ Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendu
 Cookies werden auf dem Gerät des Nutzers gespeichert und von diesem an unserer Seite übermittelt. Daher haben Sie als Nutzer auch die volle Kontrolle über die Verwendung von Cookies. Durch eine Änderung der Einstellungen in Ihrem Internetbrowser können Sie die Übertragung von Cookies deaktivieren oder einschränken. Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert erfolgen. Werden Cookies für unsere Plattform blockiert, können möglicherweise nicht mehr alle Funktionen der Plattform vollumfänglich genutzt werden.
 
 **07. Newsletter**
+
 1. Beschreibung und Umfang der Datenverarbeitung
 Auf unserer Plattform besteht die Möglichkeit, einen kostenfreien Newsletter zu abonnieren. Dabei werden bei der Anmeldung zum Newsletter die Daten aus der Eingabemaske an uns übermittelt.
 
@@ -273,6 +279,7 @@ Das Abonnement des Newsletters kann durch den betroffenen Nutzer jederzeit gekü
 Hierdurch wird ebenfalls ein Widerruf der Einwilligung der Speicherung der während des Anmeldevorgangs erhobenen personenbezogenen Daten ermöglicht.
 
 **08. Unternehmensauftritte**
+
 Wir nutzen unterschiedliche Netzwerke für unsere Unternehmensauftritte. Beim Einsatz einiger Netzwerke können personenbezogene Daten auf Server in den USA übertragen werden. Zur Gewährleistung von geeigneten Garantien zum Schutz der Übermittlung und der Verarbeitung personenbezogener Daten außerhalb der EU erfolgt die Datenübermittlung an und Datenverarbeitung durch die im Folgenden aufgeführten auf Basis geeigneter Garantien nach Art. 46 ff DSGVO, insbesondere durch den Abschluss von sogenannten Standarddatenschutzklauseln nach Art. 46 Abs. 2 lit. c DSGVO.
 
 1. Instagram
@@ -386,6 +393,7 @@ Sie können der Verarbeitung Ihrer personenbezogenen Daten, die wir im Rahmen Ih
 Facebook: [https://www.facebook.com/legal/terms](https://www.facebook.com/legal/terms)
 
 **09. Hosting**
+
 Die Plattform wird auf Servern von einem durch uns beauftragten Dienstleister gehostet.
 
 Unser Dienstleister ist:
