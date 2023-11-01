@@ -5,6 +5,7 @@ interface ButtonProps {
     uppercase?: boolean;
     bold?: boolean;
     Icon?: React.ReactNode;
+    disabled?: boolean;
     onClick?: () => void;
 }
 
@@ -15,15 +16,18 @@ export function DefaultButton({
     uppercase = false,
     bold = true,
     Icon,
+    disabled = false,
     onClick,
 }: ButtonProps) {
     const b = bold ? "font-bold" : "";
     const u = uppercase ? "uppercase" : "";
+    const c = disabled ? "cursor-not-allowed" : "";
 
     return (
         <button
-            className={`px-10 py-4 ${bgColor} text-black rounded-full ${b} ${u} ${className}`}
+            className={`px-10 py-4 ${bgColor} text-black rounded-full ${b} ${u} ${className} ${c}`}
             onClick={onClick}
+            disabled={disabled}
         >
             <span className="flex items-center justify-between">
                 {text}

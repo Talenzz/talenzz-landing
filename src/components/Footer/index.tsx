@@ -6,6 +6,7 @@ import { PageContainer } from "../PageContainer";
 import { Footer as FooterType } from "../../types";
 import brainstorm_logo from "../../assets/images/brainstorm_logo.svg";
 import emergenza_logo from "../../assets/images/emergenza_logo.svg";
+import microsoft_partner from "../../assets/images/MS_Startups_Celebration_Badge_Light.png";
 import logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
 
@@ -99,18 +100,23 @@ export function Footer({ text }: FooterProps) {
                 <PageContainer>
                     <div className="flex content-center items-center xl:content-normal flex-wrap flex-col xl:flex-row gap-12 xl:gap-0 justify-between pt-12 pb-12">
                         <a href="https://www.bmm-ag.de/">
-                            <img
-                                src={brainstorm_logo}
-                                alt="Brainstorm Logo"
-                                className="xl:pr-16"
-                            />
+                            <img src={brainstorm_logo} alt="Brainstorm Logo" />
                         </a>
                         <a href="https://emergenza.live/">
                             <img src={emergenza_logo} alt="Emergenza Logo" />
                         </a>
+                        <a href="https://www.microsoft.com/en-us/startups">
+                            <img
+                                className="max-w-xs"
+                                src={microsoft_partner}
+                                alt="Microsoft Partner Logo"
+                            />
+                        </a>
                         <DefaultButton
                             text={text.partners.button.text}
-                            bgColor="self-center bg-white text-xl"
+                            bgColor="bg-white"
+                            className="self-center text-xl lg:mr-auto lg:ml-auto lg:mt-8"
+                            disabled
                             onClick={() =>
                                 window.open(text.partners.button.link)
                             }
