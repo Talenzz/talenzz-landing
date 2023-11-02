@@ -112,11 +112,9 @@ export function Footer({ text }: FooterProps) {
                                 alt="Microsoft Partner Logo"
                             />
                         </a>
-                        <DefaultButton
-                            text={text.partners.button.text}
+                        <DefaultButton                        text={text.partners.button.text}
                             bgColor="bg-white"
                             className="self-center text-xl lg:mr-auto lg:ml-auto lg:mt-8"
-                            disabled
                             onClick={() =>
                                 window.open(text.partners.button.link)
                             }
