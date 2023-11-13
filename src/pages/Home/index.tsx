@@ -44,8 +44,8 @@ export default function HomePage() {
                         Tretet unserem Newsletter bei, um mit uns die Zukunft
                         der Musikbranche mitzugestalten! Bleibt über alle
                         Entwicklungen informiert und verpasst keine News. Die
-                        ersten 100 Anmeldungen kriegen einen Gutschein zum
-                        Launch der Plattform im Januar 2024.
+                        ersten 100 Anmeldungen bekommen eine Überraschung zum
+                        Launch der Plattform Anfang 2024.
                     </p>
 
                     <iframe
