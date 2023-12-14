@@ -2,6 +2,12 @@ import { useEffect } from "react";
 import "vanilla-cookieconsent";
 import pluginConfig from "./config";
 
+function handlePrivacyLinkClick() {
+    window.location.hash = '#datenschutz';
+    window.CC.hideSettings();
+}
+window.handlePrivacyLinkClick = handlePrivacyLinkClick;
+
 export function CookieConsent() {
     useEffect(() => {
         /**

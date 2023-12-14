@@ -81,6 +81,6 @@ export interface Footer {
 declare global {
     interface Window {
         CC: CookieConsent;
-
+        handlePrivacyLinkClick: () => void;
     }
 }
