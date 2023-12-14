@@ -7,6 +7,7 @@ import { GetPageText } from "../../utils";
 import { ApplySection } from "../../components/ApplySection";
 import { SectionHeadline } from "../../components/SectionHeadline";
 import { ScrollRestoration } from "react-router-dom";
+import { DefaultButton } from "../../components/DefaultButton";
 
 export default function HomePage() {
     const text = GetPageText();
@@ -28,6 +29,23 @@ export default function HomePage() {
                     buttons={text.info.buttons}
                     steps={text.info.steps}
                 />
+
+                <div className="text-center">
+                    <DefaultButton
+                        text={"Jetzt anmelden"}
+                        bgColor={"bg-white"}
+                        className="lg:text-xl border-2 border-black"
+                        onClick={() => {
+                            const applySection =
+                                document.getElementById("newsletter");
+                            if (applySection) {
+                                applySection.scrollIntoView({
+                                    behavior: "smooth",
+                                });
+                            }
+                        }}
+                    />
+                </div>
 
                 <div>
                     <SectionHeadline text={text.transition.title} />
