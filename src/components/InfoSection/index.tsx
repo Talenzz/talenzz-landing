@@ -6,6 +6,7 @@ import laptop from "../../assets/icons/laptop.svg";
 import crowdfunding from "../../assets/icons/crowdfunding.svg";
 import fans from "../../assets/icons/fans.svg";
 import { SectionHeadline } from "../SectionHeadline";
+import { ScrollLink } from "../ScrollLink";
 
 interface InfoSectionProps {
     title: string;
@@ -25,6 +26,21 @@ export function InfoSection({ title, buttons, steps }: InfoSectionProps) {
             c = "justify-self-start";
         } else if (i === steps.length - 1) {
             c = "justify-self-end";
+        }
+
+        // if fan section is active and first item, link to newsletter
+        if (i === 0 && activeSection === 1) {
+            return (
+                <ScrollLink to="newsletter">
+                    <TextIconBox
+                        key={i}
+                        text={t.fan}
+                        icon={icons[i]}
+                        bgColor={"bg-sky"}
+                        className={c}
+                    />
+                </ScrollLink>
+            );
         }
 
         return (

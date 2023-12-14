@@ -39,7 +39,7 @@ export default function HomePage() {
 
                 <ApplySection content={text.apply} />
 
-                <div>
+                <div id="newsletter">
                     <p className="text-xl text-left font-bold">
                         Tretet unserem Newsletter bei, um mit uns die Zukunft
                         der Musikbranche mitzugestalten! Bleibt über alle

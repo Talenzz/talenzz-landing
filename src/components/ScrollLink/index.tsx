@@ -1,9 +1,9 @@
 interface ScrollLinkProps {
     to: string;
-    text: string;
+    children: React.ReactNode;
 }
 
-export function ScrollLink({ to, text }: ScrollLinkProps) {
+export function ScrollLink({ to, children }: ScrollLinkProps) {
     // use scrollIntoView and behavior: smooth to scroll to the section
     const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
         e.preventDefault();
@@ -15,9 +15,9 @@ export function ScrollLink({ to, text }: ScrollLinkProps) {
         <a
             href={`#${to}`}
             onClick={handleClick}
-            className="text-white underline"
+            className="text-white"
         >
-            {text}
+            {children}
         </a>
     );
 }
