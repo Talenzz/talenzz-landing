@@ -6,7 +6,6 @@ import { StatsSection } from "../../components/StatsSection";
 import { GetPageText } from "../../utils";
 import { ApplySection } from "../../components/ApplySection";
 import { SectionHeadline } from "../../components/SectionHeadline";
-import { ScrollRestoration } from "react-router-dom";
 import { DefaultButton } from "../../components/DefaultButton";
 
 export default function HomePage() {
@@ -14,7 +13,6 @@ export default function HomePage() {
 
     return (
         <>
-            <ScrollRestoration />
             <HeroHeader text={text.hero} />
 
             <div className="h-12" />

@@ -1,5 +1,6 @@
-import { useRouteError, Link } from "react-router-dom";
+import { useRouteError } from "react-router-dom";
 import { DefaultButton } from "../../components/DefaultButton";
+import { ScrollRestorationLink } from "../../components/ScrollRestorationLink";
 
 export default function ErrorPage() {
     const error = useRouteError() as any;
@@ -17,9 +18,9 @@ export default function ErrorPage() {
                         {error.statusText || error.message}
                     </code>
                 </p>
-                <Link to="/">
+                <ScrollRestorationLink to="/">
                     <DefaultButton bgColor="bg-sky" text="Zurück zur Seite" />
-                </Link>
+                </ScrollRestorationLink>
             </div>
         </>
     );

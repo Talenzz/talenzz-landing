@@ -59,7 +59,7 @@ const pluginConfig: UserConfig = {
                     {
                         title: 'Verwendung von Cookies',
                         description:
-                            'Wir verwenden Cookies, um grundlegende Funktionen der Website zu gewährleisten und Ihre Online-Erfahrung zu verbessern. Sie können für jede Kategorie wählen, ob Sie sich an- oder abmelden möchten. Weitere Informationen zu Cookies und anderen sensiblen Daten finden Sie in der vollständigen <a href="/datenschutz" class="cc-link">Datenschutzerklärung</a>.',
+                            'Wir verwenden Cookies, um grundlegende Funktionen der Website zu gewährleisten und Ihre Online-Erfahrung zu verbessern. Sie können für jede Kategorie wählen, ob Sie sich an- oder abmelden möchten. Weitere Informationen zu Cookies und anderen sensiblen Daten finden Sie in der vollständigen <a href="/#datenschutz" class="cc-link">Datenschutzerklärung</a>.',
                     },
                     {
                         title: 'Notewendige Cookies',

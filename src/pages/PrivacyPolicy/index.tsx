@@ -1,20 +1,19 @@
-import { Link, ScrollRestoration } from "react-router-dom";
 import Markdown from "react-markdown";
 import { privacyPolicyContent } from "../../data/privacyPolicy";
 import { PageContainer } from "../../components/PageContainer";
 import logo from "../../assets/logo_black.svg";
 import styles from "./index.module.css";
+import { ScrollRestorationLink } from "../../components/ScrollRestorationLink";
 
 export default function PrivacyPolicyPage() {
     return (
         <>
-            <ScrollRestoration />
             <div
                 id="header-container"
                 className="top-0 left-0 w-full p-4 z-10 pt-8"
             >
                 <header id="header" className="md:w-9/12 w-11/12 mx-auto">
-                    <Link to="/">
+                    <ScrollRestorationLink to="/">
                         <picture>
                             <img
                                 src={logo}
@@ -22,7 +21,7 @@ export default function PrivacyPolicyPage() {
                                 alt="Talenzz logo"
                             />
                         </picture>
-                    </Link>
+                    </ScrollRestorationLink>
                 </header>
             </div>
             <PageContainer>

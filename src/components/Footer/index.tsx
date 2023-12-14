@@ -8,7 +8,7 @@ import brainstorm_logo from "../../assets/images/brainstorm_logo.svg";
 import emergenza_logo from "../../assets/images/emergenza_logo.svg";
 import microsoft_partner from "../../assets/images/MS_Startups_Celebration_Badge_Light.png";
 import logo from "../../assets/logo.svg";
-import { Link } from "react-router-dom";
+import { ScrollRestorationLink } from "../ScrollRestorationLink";
 
 interface FooterProps {
     text: FooterType;
@@ -81,14 +81,14 @@ export function Footer({ text }: FooterProps) {
         terms: (
             <>
                 <div>
-                    <Link to={text.info.imprint.link}>
+                    <ScrollRestorationLink to={text.info.imprint.link}>
                         {text.info.imprint.text}
-                    </Link>
+                    </ScrollRestorationLink>
                 </div>
                 <div>
-                    <Link to={text.info.terms.link}>
+                    <ScrollRestorationLink to={text.info.terms.link}>
                         {text.info.terms.text}
-                    </Link>
+                    </ScrollRestorationLink>
                 </div>
             </>
         ),
